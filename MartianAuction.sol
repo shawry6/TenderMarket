@@ -1,9 +1,9 @@
-pragma solidity >=0.4.22 <0.6.0;
+pragma solidity 0.5.0;
 
 contract MartianAuction {
-    address payable public beneficiary;
 
     // Current state of the auction.
+    address payable public beneficiary;
     address public highestBidder;
     uint public highestBid;
 
