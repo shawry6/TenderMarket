@@ -6,5 +6,4 @@ This application is an online tender or bidding system for the DJM Tender Billbo
 
 ### Demo App
 
-Click [here](frontend/index.html) to launch the TenderMarket application.
-# tendermarket
+Click [here](https://shawry6.github.io/TenderMarket/frontend/index.html#) to launch the TenderMarket application.
