@@ -1,9 +1,10 @@
-# TenderMarket
+# MartianMarket
 
 ## Summary
 
-This application is an online tender or bidding system for the DJM Tender Billboard to assign winning tenders to respective projects online. 
+This application is an online auction system for the Martian Land Foundation to auction available resources on Mars.
 
 ### Demo App
 
-Click [here](https://shawry6.github.io/TenderMarket/frontend/index.html#) to launch the TenderMarket application.
+Click [here](frontend/index.html) to launch the MartianMarket application.
+# martian_auction_market
