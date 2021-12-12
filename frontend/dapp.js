@@ -1,5 +1,5 @@
-// @TODO: Update this address to match your deployed TenderMarket contract!
-const contractAddress = "0x982cc2f7c37FAF6aC2e594A3b5DaCfc675f39766";
+// @TODO: Update this address to match your deployed MartianMarket contract!
+const contractAddress = "0x7a377fAd8c7dB341e662c93A79d0B0319DD3DaE8";
 
 const dApp = {
   ethEnabled: function() {
@@ -187,8 +187,8 @@ const dApp = {
     this.accounts = await window.web3.eth.getAccounts();
     this.contractAddress = contractAddress;
 
-    this.marsJson = await (await fetch("./TenderMarket.json")).json();
-    this.auctionJson = await (await fetch("./TenderAuction.json")).json();
+    this.marsJson = await (await fetch("./MartianMarket.json")).json();
+    this.auctionJson = await (await fetch("./MartianAuction.json")).json();
 
     this.marsContract = new window.web3.eth.Contract(
       this.marsJson,
